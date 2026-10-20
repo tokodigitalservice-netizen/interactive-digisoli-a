@@ -21,7 +21,7 @@ function closeDiagnosis() {
  * { type: "open-detail-modal", config: "設定JSONのURL文字列" }
  */
 function openDetailModal(configUrl) {
-  const url = `https://video-story-common.pages.dev/?config=${encodeURIComponent(configUrl)}`;
+  const url = `https://video-story-5s3.pages.dev/?config=${encodeURIComponent(configUrl)}`;
   document.getElementById('detail-frame').src = url;
   document.getElementById('detail-modal').classList.add('open');
   document.body.style.overflow = 'hidden';
